@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+.hero-bg {
+    background-image: url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+.section-bg {
+    background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+.partner-logo {
+    transition: all 0.3s ease;
+}
+.partner-logo:hover {
+    transform: scale(1.1);
+}
